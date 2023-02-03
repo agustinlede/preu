@@ -2,7 +2,10 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 
-def index(response):
-    return HttpResponse("HOLA")
+def home(response):
+    return render(response, "main/home.html")
+
+def tareas(response):
+    return render(response, "main/tareas.html")
     
 # Create your views here.
