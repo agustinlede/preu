@@ -8,4 +8,9 @@ def home(response):
 def tareas(response):
     return render(response, "main/tareas.html")
     
+def calendario(response):
+    return render(response, "main/calendario.html")
+
+def ensayos(response):
+    return render(response, "main/ensayos.html")
 # Create your views here.
