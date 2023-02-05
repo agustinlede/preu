@@ -7,6 +7,7 @@ urlpatterns = [
     path('home/', views.home, name="home"),
     path('ensayos/', views.ensayos, name="ensayos"),
     path('calendario/', views.calendario, name="calendario"),
+    
 
     
 ]
